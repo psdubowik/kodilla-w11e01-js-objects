@@ -13,12 +13,10 @@ Phone.prototype.printInfo = function() {
 };
 
 function printBoolean(testBool) {
-    if(testBool) {
+    if (testBool) {
         return "enabled";
-
-    } else {
-        return "disabled";
     }
+    return "disabled";
 };
 
 function checkBetterPhone(phoneOne, phoneTwo) {
@@ -31,7 +29,7 @@ function checkBetterPhone(phoneOne, phoneTwo) {
 };
 
 function compareOneAttribute(phoneOne, phoneTwo, attrName) {
-    if(phoneOne[attrName] > phoneTwo[attrName]){
+    if (phoneOne[attrName] > phoneTwo[attrName]){
         console.log(phoneOne.brand + " has better " + attrName + " - " + phoneOne[attrName] + ".")
     } else if (phoneOne[attrName] < phoneTwo[attrName]){
         console.log(phoneTwo.brand + " has better " + attrName + " - " + phoneTwo[attrName] + ".")
@@ -40,11 +38,11 @@ function compareOneAttribute(phoneOne, phoneTwo, attrName) {
 };
 
 var iPhone7 = new Phone("Apple", 4700, "silver", 64, 8, 7);
-var SamsungGalaxyS7 = new Phone("Samsung", 1900, "golden", 32, 4, 10, true);
-var OnePlusOne = new Phone("OnePlus", 1300, "black", 16, 16, 8, true);
+var samsungGalaxyS7 = new Phone("Samsung", 1900, "golden", 32, 4, 10, true);
+var onePlusOne = new Phone("OnePlus", 1300, "black", 16, 16, 8, true);
 
-iPhone8.printInfo();
-SamsungGalaxyS7.printInfo();
-OnePlusOne.printInfo();
+iPhone7.printInfo();
+samsungGalaxyS7.printInfo();
+onePlusOne.printInfo();
 
-checkBetterPhone(iPhone7, OnePlusOne);
+checkBetterPhone(iPhone7, onePlusOne);
