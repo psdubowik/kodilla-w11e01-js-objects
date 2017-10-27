@@ -1,0 +1,23 @@
+{
+    "name": "kodillaFE_week11ex01_js_objects",
+    "version": "1.0.0",
+    "description": "Objects in JavaScript",
+    "main": "index.js",
+    "scripts": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/psdubowik/kodilla-w11e01-js-objects.git"
+    },
+    "keywords": [
+      "jquery"
+    ],
+    "author": "PSD",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/psdubowik/kodilla-w11e01-js-objects/issues"
+    },
+    "homepage": "https://github.com/psdubowik/kodilla-w11e01-js-object#readme"
+  }
+  
